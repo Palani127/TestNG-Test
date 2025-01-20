@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" verbose="2" >
+   <classes>
+	<class name="com.RedRose.Testng01.Testng02">
+		<methods>
+			<exclude name="fourthGear"></exclude> <!-- exclude method to run-->
+		</methods>
+	</class>
+   </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test2" thread-count="5" verbose="2">
+	<parameter name="username" value="Palani"></parameter>
+	<parameter name="password" value="Ram@117"></parameter>
+	<groups>
+		<define name="define1 "><!-- add the groups to define tag and run the define tag-->
+			<include name="making"></include>
+			<include name="king"></include>
+		</define>
+		<run>
+			<exclude name="define1"></exclude>
+		</run>
+	</groups>
+	<classes>
+		<class name="com.RedRose.Testng01.TesNG03"></class>
+	</classes>
+  </test>
+</suite> <!-- Suite -->

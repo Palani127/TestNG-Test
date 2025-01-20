@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-16T23:36:05 IST" name="Surefire suite" finished-at="2025-01-16T23:36:05 IST" duration-ms="84">
+    <groups>
+      <group name="GroupA">
+        <method signature="Testng02.firstGear()[pri:0, instance:com.RedRose.Testng01.Testng02@30b7c004]" name="firstGear" class="com.RedRose.Testng01.Testng02"/>
+        <method signature="Testng02.secondGear()[pri:0, instance:com.RedRose.Testng01.Testng02@30b7c004]" name="secondGear" class="com.RedRose.Testng01.Testng02"/>
+        <method signature="Testng02.startCar()[pri:1, instance:com.RedRose.Testng01.Testng02@30b7c004]" name="startCar" class="com.RedRose.Testng01.Testng02"/>
+      </group> <!-- GroupA -->
+    </groups>
+    <test started-at="2025-01-16T23:36:05 IST" name="Surefire test" finished-at="2025-01-16T23:36:05 IST" duration-ms="84">
+      <class name="com.RedRose.Testng01.TestNG01">
+        <test-method signature="fifthTestCase()[pri:0, instance:com.RedRose.Testng01.TestNG01@3d121db3]" started-at="2025-01-16T23:36:05 IST" name="fifthTestCase" finished-at="2025-01-16T23:36:05 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTestCase -->
+        <test-method signature="firstTestCase()[pri:0, instance:com.RedRose.Testng01.TestNG01@3d121db3]" started-at="2025-01-16T23:36:05 IST" name="firstTestCase" finished-at="2025-01-16T23:36:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestCase -->
+        <test-method signature="fourthTestCase()[pri:0, instance:com.RedRose.Testng01.TestNG01@3d121db3]" started-at="2025-01-16T23:36:05 IST" name="fourthTestCase" finished-at="2025-01-16T23:36:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTestCase -->
+        <test-method signature="secondTestCase()[pri:0, instance:com.RedRose.Testng01.TestNG01@3d121db3]" started-at="2025-01-16T23:36:05 IST" name="secondTestCase" finished-at="2025-01-16T23:36:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTestCase -->
+        <test-method signature="thirdTestCase()[pri:0, instance:com.RedRose.Testng01.TestNG01@3d121db3]" started-at="2025-01-16T23:36:05 IST" name="thirdTestCase" finished-at="2025-01-16T23:36:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestCase -->
+      </class> <!-- com.RedRose.Testng01.TestNG01 -->
+      <class name="com.RedRose.Testng01.Testng02">
+        <test-method signature="firstGear()[pri:0, instance:com.RedRose.Testng01.Testng02@30b7c004]" started-at="2025-01-16T23:36:05 IST" name="firstGear" finished-at="2025-01-16T23:36:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstGear -->
+        <test-method signature="fourthGear()[pri:0, instance:com.RedRose.Testng01.Testng02@30b7c004]" started-at="2025-01-16T23:36:05 IST" name="fourthGear" finished-at="2025-01-16T23:36:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthGear -->
+        <test-method signature="secondGear()[pri:0, instance:com.RedRose.Testng01.Testng02@30b7c004]" started-at="2025-01-16T23:36:05 IST" name="secondGear" finished-at="2025-01-16T23:36:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondGear -->
+        <test-method signature="stopCar()[pri:0, instance:com.RedRose.Testng01.Testng02@30b7c004]" started-at="2025-01-16T23:36:05 IST" name="stopCar" finished-at="2025-01-16T23:36:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopCar -->
+        <test-method signature="startCar()[pri:1, instance:com.RedRose.Testng01.Testng02@30b7c004]" started-at="2025-01-16T23:36:05 IST" name="startCar" finished-at="2025-01-16T23:36:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startCar -->
+        <test-method signature="thirdGear()[pri:0, instance:com.RedRose.Testng01.Testng02@30b7c004]" started-at="2025-01-16T23:36:05 IST" name="thirdGear" depends-on-groups="GroupA" finished-at="2025-01-16T23:36:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdGear -->
+      </class> <!-- com.RedRose.Testng01.Testng02 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
